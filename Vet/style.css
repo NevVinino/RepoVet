@@ -95,6 +95,19 @@ h1.venta{
     text-align: center;
 }
 
+
+h3.name {
+    transition: color 0.3s ease, outline 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+h3.name:hover {
+    background-color: black; /* Cambia el fondo a amarillo al pasar el cursor */
+    color: yellow; /* Cambia el texto a negro al pasar el cursor */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño para dar un efecto de resalte */
+    outline: 2px solid black; /* Agrega un contorno negro */
+}
+
+
 /* Estilo para la sección de "Sobre Nosotros" */
 .nosotros-section {
     width: 100%; /* Ocupa todo el ancho de la página */
