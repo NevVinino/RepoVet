@@ -1,4 +1,23 @@
-/* Estilos generales para dispositivos móviles */
+
+/* Logo de la imagen */
+img.log {
+    margin-right: 10px; /* Espacio entre la imagen del logo y el texto */
+    height: 40px; /* Ajusta la altura del logo */
+    max-height: 100px; /* Limita la altura máxima para mantener la proporción */
+    vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+}
+
+/* Título "Gato Negro" */
+label.logo {
+    display: inline-block; /* Mantiene el texto en línea al lado del logo */
+    margin: 0; /* Elimina márgenes extra */
+    padding: 0; /* Elimina padding extra */
+    font-size: 20px; /* Ajusta el tamaño de la fuente */
+    color: #FFD700; /* Ajusta el color si es necesario */
+    white-space: nowrap; /* Evita que el texto se divida en múltiples líneas */
+    vertical-align: middle; /* Alinea verticalmente el texto con la imagen */
+}
+/* Estilos generales para dispositivos  */
 @media (max-width: 1300px) {
 
     /* Estilos para el nav en móviles */
@@ -18,22 +37,31 @@
 
     /* Contenedor para alinear el logo, el texto del logo y el botón */
     .nav-header {
-        display: flex; /* Utiliza flexbox para organizar los elementos en una fila */
-        flex-direction: row; /* Organiza los elementos en una fila */
-        align-items: center; /* Centra verticalmente los elementos en el contenedor */
+        display: flex; /* Asegura que los elementos se alineen en fila */
+        align-items: center; /* Centra verticalmente los elementos */
         justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
-        width: 100%; /* Hace que el contenedor ocupe todo el ancho del nav */
-        margin-bottom: 10px; /* Espacio entre el contenedor y el menú */
+        width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+        padding: 10px; /* Ajusta el padding según sea necesario */
     }
 
     /* Logo */
     img.log {
         margin-right: 10px; /* Espacio entre el logo y el texto del logo */
+        height: 15px; /* Ajusta la altura del logo*/
+        height: 40px; /* Ajusta la altura del logo */
+        max-height: 60px; /* Limita la altura máxima para mantener la proporción */
+        vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
     }
 
     /* Título del logo */
     label.logo {
-        margin-right: 10px; /* Espacio entre el texto del logo y el botón de menú */
+        display: inline-block; /* Mantiene el texto en línea al lado del logo */
+        margin: 0; /* Elimina márgenes extra */
+        padding: 0; /* Elimina padding extra */
+        font-size: 20px; /* Ajusta el tamaño de la fuente */
+        color: #FFD700; /* Ajusta el color si es necesario */
+        white-space: nowrap; /* Evita que el texto se divida en múltiples líneas */
+        vertical-align: middle; /* Alinea verticalmente el texto con la imagen */
     }
 
     /* Botón de menú */
@@ -187,5 +215,35 @@
     /* Ajustes para el texto en el footer */
     .footer-copy {
         font-size: 12px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+    }
+
+/* Ajustes para pantallas pequeñas */
+
+    /* Estilos generales para el contenedor de navegación */
+    .nav-header {
+        display: flex; /* Asegura que los elementos se alineen en fila */
+        align-items: center; /* Centra verticalmente los elementos */
+        justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
+        width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+        padding: 10px; /* Ajusta el padding según sea necesario */
+    }
+
+    /* Logo de la imagen */
+    img.log {
+        margin-right: 10px; /* Espacio entre la imagen del logo y el texto */
+        height: 40px; /* Ajusta la altura del logo */
+        max-height: 50px; /* Limita la altura máxima para mantener la proporción */
+        vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+    }
+
+    /* Título "Gato Negro" */
+    label.logo {
+        display: inline-block; /* Mantiene el texto en línea al lado del logo */
+        margin: 0; /* Elimina márgenes extra */
+        padding: 0; /* Elimina padding extra */
+        font-size: 20px; /* Ajusta el tamaño de la fuente */
+        color: #FFD700; /* Ajusta el color si es necesario */
+        white-space: nowrap; /* Evita que el texto se divida en múltiples líneas */
+        vertical-align: middle; /* Alinea verticalmente el texto con la imagen */
     }
 }
